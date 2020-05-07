@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_exercises3:
                 startActivity(new Intent(this, Exercises3.class));
+//                startActivity(new Intent(this, Chatroom.class));
                 break;
         }
     }

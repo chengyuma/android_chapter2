@@ -5,6 +5,7 @@
     <color name="colorAccent">#D81B60</color>
 
 
+
     <color name="material50Green">#E8F5E9</color>
     <color name="material100Green">#C8E6C9</color>
     <color name="material150Green">#B7DEB8</color>
@@ -23,4 +24,5 @@
     <color name="material800Green">#2E7D32</color>
     <color name="material850Green">#256E29</color>
     <color name="material900Green">#1B5E20</color>
+
 </resources>

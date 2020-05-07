@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:background="#161823"
+    >
+
+
+    <ImageView
+        android:id="@+id/tv_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        app:srcCompat="@drawable/session_robot" />
+
+    <ImageView
+        android:id="@+id/tv_official"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tv_icon"
+        android:layout_alignRight="@id/tv_icon"
+        app:srcCompat="@drawable/im_icon_notice_official" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="17dp"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:text="抖音小助手" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="76dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="17dp"
+        android:textSize="13sp"
+        android:textColor="#80ffffff"
+        android:text="#收下我的双下巴祝福" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="17dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="17dp"
+        android:textSize="12sp"
+        android:textColor="#57ffffff"
+        android:text="昨天" />
+
+</RelativeLayout>

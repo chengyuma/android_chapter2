@@ -5,12 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
     tools:background="@color/colorBackground">
 
     <RelativeLayout
         android:id="@+id/header"
         android:layout_width="match_parent"
-        android:layout_height="45dp">
+        android:layout_height="45dp"
+        android:background="@color/colorBackground">
+
 
         <TextView
             android:layout_width="wrap_content"
@@ -22,9 +25,12 @@
             android:textSize="18sp" />
     </RelativeLayout>
 
+
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rv_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:listitem="@layout/im_list_item" />
+
 </LinearLayout>
